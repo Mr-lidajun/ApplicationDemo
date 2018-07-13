@@ -27,6 +27,7 @@
         <activity android:name=".RxSortActivity"></activity>
         <activity android:name=".RxConnetActivity"></activity>
         <activity android:name=".TimestampActivity"></activity>
+        <activity android:name=".RxBackpressureActivity"></activity>
 
     </application>
 
