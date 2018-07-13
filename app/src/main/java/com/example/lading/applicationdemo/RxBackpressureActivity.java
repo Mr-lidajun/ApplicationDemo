@@ -105,8 +105,7 @@ public class RxBackpressureActivity extends AppCompatActivity implements View.On
             //处理完毕之后，在通知被观察者发送下一个事件
             // 注意在onNext()方法中，最好最后再调用request()方法.
             Log.w("RxJava","---->"+t);
-            //request(1);
-            quest(Long.MAX_VALUE)
+            request(1);
         }
     }
 
