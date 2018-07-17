@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button13:
                 intent = new Intent(MainActivity.this, RxBackpressureActivity.class);
                 break;
+            default:
+                break;
         }
         startActivity(intent);
     }

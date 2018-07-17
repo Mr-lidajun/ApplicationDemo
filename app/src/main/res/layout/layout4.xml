@@ -39,7 +39,27 @@
             android:id="@+id/button_back_pressure"
             android:layout_below="@+id/edit1"
             />
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流速控制相关的操作符（过滤）"
+            android:id="@+id/button_filter_operator_sample"
+            android:layout_below="@+id/edit1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流速控制相关的操作符（缓存）"
+            android:id="@+id/button_filter_operator_buffer"
+            android:layout_below="@+id/edit1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流速控制相关的操作符（onBackpressureDrop）"
+            android:id="@+id/button_operator_backpressure"
+            android:layout_below="@+id/edit1"
+            />
         <Button
 
             android:layout_width="wrap_content"
